@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Open+Sans:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("componants/container.css");
+@import url("componants/avatar.css");
+@import url("componants/button.css");
+@import url("componants/banner.css");
+@import url("componants/card.css");
+@import url("componants/pie.css");
+
+
+body {
+	font-family: 'Roboto';
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	font-family: 'Nunito';
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Roboto';
+	color: black;
+	transition: color 0.3s ease;
+	text-decoration: underline;
+}
+a:hover{
+	color: #52070e;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+i {
+	font-size: 30px;
+}
+
+/*Class*/
+
+.text-bold{
+	font-weight: bold;
+}
+
+/*Id*/
+
+#list-styletype-none{
+	list-style-type: none;
+}
+
+#img-center{
+	margin: 10px auto;
+}

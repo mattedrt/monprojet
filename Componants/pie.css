@@ -1,0 +1,80 @@
+/* SECTION 7. BUDGET PREVISIONNEL - PIE CHART */
+#my-pie-chart {
+  margin-left: 330px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#3b3f45 0% 54%, #52070e 54% 56%, #6e6e6e 56% 71%, #666dbd 71% 95%, #d17a00 95% 100%);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Budget Pie*/
+    /* RE-PLACEMENT DU TEXTE */
+    #list-align{
+      margin-left: -350px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+    }
+
+
+    /* SUPPRESSION DES BULLETS POINTS DE BASE */
+    #bulletpoint-color3b3f45{
+      list-style: none;
+    }
+    #bulletpoint-color52070e {
+      list-style: none;
+    }
+    #bulletpoint-color6e6e6e {
+      list-style: none;
+    }
+    #bulletpoint-color666dbd {
+      list-style: none;
+    }
+    #bulletpoint-colord17a00 {
+      list-style: none;
+    }
+
+
+    /* CREATION DES NOUVEAUX BULLETS POINTS */
+    #bulletpoint-color3b3f45::before {
+      content: "■";
+      font-size: 30px;
+      color: #3b3f45;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    #bulletpoint-color52070e::before {
+      content: "■";
+      font-size: 30px;
+      color: #52070e;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    #bulletpoint-color6e6e6e::before {
+      content: "■";
+      font-size: 30px;
+      color: #6e6e6e;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    #bulletpoint-color666dbd::before {
+      content: "■";
+      font-size: 30px;
+      color: #666dbd;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    #bulletpoint-colord17a00::before {
+      content: "■";
+      font-size: 30px;
+      color: #d17a00;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
